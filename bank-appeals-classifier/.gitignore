@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.joblib
+reports/*.json
+reports/*.csv
+data/*.csv
+!data/demo.csv
+
+/api/target/
+/api/*.sqlite3*
